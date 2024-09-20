@@ -1,0 +1,78 @@
+/*style.css*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #c0c0c0;
+    flex-direction: column;
+    margin: 0;
+    background-color: #adbbda;
+}
+
+.main {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    transition: transform 0.2s;
+    width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color:#000;
+}
+
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-group button {
+    background-color: #c5f4e3; /* Green background */
+    border: 15px solid rgb(251, 254, 251); /* Green border */
+    color: white; /* White text */
+    padding: 20px 40px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
